@@ -1,5 +1,9 @@
-function Game() {
-    return <p>The game will eventually go here.</p>;
+export default function Square() { 
+  return <button className="square">X</button>;
 }
 
-export default Game;
+// function Game() {
+//     return <p>The game will eventually go here.</p>;
+// }
+
+// export default Game;
